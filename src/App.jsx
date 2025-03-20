@@ -31,7 +31,7 @@ function App() {
         <Project />
         <Contact />
         <footer className="bg-white dark:bg-black text-gray-900 dark:text-white py-10">
-          <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
+          <div className="container mx-auto flex flex-col md:flex-row text-center justify-between items-center px-6">
             <p className="text-sm">
               © 2025 Nyan Min Htet. All Rights Reserved.
             </p>
