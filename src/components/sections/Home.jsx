@@ -9,7 +9,7 @@ const Home = () => {
       >
         <div className="relative p-2 rounded-full before:absolute before:inset-0 before:-m-1 before:rounded-full before:bg-gradient-to-r before:from-purple-500 before:via-blue-500 before:to-cyan-500 before:blur-lg before:opacity-75 before:animate-pulse">
           <img
-            src="/photo.jpg"
+            src="photo.jpg"
             alt="Profile Picture"
             className="relative rounded-full w-65 h-65 shadow-lg"
           />
