@@ -1,0 +1,46 @@
+Title - Why write div inside return?
+---------------------------------------
+In React, the return statement inside a functional component is used to define the JSX that should be rendered to the DOM. The div elements inside the return statement are part of this JSX and define the structure and content of the component's UI.
+
+Here's a breakdown of why the div elements are used in the return statement of the LoadingScreen component:
+
+Wrapper div: The outermost div with class names like fixed inset-0 z-50 pl-5 bg-black text-gray-70 flex flex-col items-center justify-center is used to create a full-screen overlay with specific styling. This ensures that the loading screen covers the entire viewport and is centered both horizontally and vertically.
+
+Text div: The div with class names mb-4 text-4xl font-sans font-bold contains the loading text that is being animated. The {text} variable is dynamically updated to show the loading message character by character, and the span with the class animate-blink adds a blinking cursor effect.
+
+Progress Bar div: The div with class names w-[400px] h-[2px] bg-gray-600 rounded mt-5 relative overflow-hidden creates a progress bar container. Inside this container, another div with class names w-[40%] h-full bg-blue-600 shadow-[0_0_15px_#3b82f6] animate-loading-bar represents the progress bar itself, which is styled and animated to indicate loading progress.
+
+By placing these div elements inside the return statement, you define the structure and appearance of the loading screen, ensuring that it is displayed correctly when the component is rendered.
+//////////////////////////////////////////////////////////////////////////////
+
+Title - What is JSX?
+-----------------------------------
+JSX (JavaScript XML) is a syntax extension for JavaScript that is commonly used with React to describe what the UI should look like. It allows you to write HTML-like code within JavaScript, which makes it easier to create and visualize the structure of your components.
+
+Here are some key points about JSX:
+
+HTML-like Syntax: JSX looks similar to HTML, but it is actually JavaScript. This allows you to write markup directly within your JavaScript code.
+
+Embedding Expressions: You can embed JavaScript expressions within JSX by using curly braces {}. This allows you to dynamically render content based on the state or props of your component.
+
+Components: JSX can be used to create React components, which are reusable pieces of UI. Components can be defined as functions or classes and can accept props to customize their behavior.
+
+Transpilation: JSX is not valid JavaScript, so it needs to be transpiled into regular JavaScript before it can be executed by the browser. This is typically done using tools like Babel.
+
+Here's an example of JSX in a React component:
+
+import React from 'react';
+
+const MyComponent = () => {
+    const name = "GitHub Copilot";
+    return (
+        <div>
+            <h1>Hello, {name}!</h1>
+            <p>Welcome to my portfolio site.</p>
+        </div>
+    );
+};
+
+export default MyComponent;
+
+In this example, the MyComponent function returns JSX that describes a div containing an h1 and a p element. The {name} expression is used to dynamically insert the value of the name variable into the h1 element.
