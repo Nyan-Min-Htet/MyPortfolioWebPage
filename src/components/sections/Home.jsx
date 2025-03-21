@@ -6,9 +6,9 @@ const Home = () => {
     <>
       <section
         id="home"
-        className="py-45 min-h-screen space-x-10 flex flex-col md:flex-row items-center justify-center space-y-10 md:space-x-10"
+        className="py-45 min-h-screen relative space-x-10 flex flex-col md:flex-row items-center justify-center space-y-10 md:space-y-10 md:space-x-10"
       >
-        <div className="p-2 rounded-full before:absolute before:inset-0 before:-m-1 before:rounded-full before:bg-gradient-to-r before:from-purple-500 before:via-blue-500 before:to-cyan-500 before:blur-lg before:opacity-75 before:animate-pulse">
+        <div className="relative p-2 rounded-full before:absolute before:inset-0 before:-m-1 before:rounded-full before:bg-gradient-to-r before:from-purple-500 before:via-blue-500 before:to-cyan-500 before:blur-lg before:opacity-75 before:animate-pulse">
           <img
             src={images}
             alt="Profile Picture"

@@ -4,12 +4,9 @@ import RevealOnScroll from "../RevealOnScroll";
 const Project = () => {
   return (
     <>
-      <section
-        id="project"
-        className="py-20 min-h-52 flex leading-6.5 items-center justify-center"
-      >
+      <section id="project" className="py-20 min-h-52 flex leading-6.5">
         <RevealOnScroll>
-          <div className="max-w-6xl mx-auto px-4 md:w-md md:flex md:flex-col md:items-center md:justify-center sm:w-md sm:flex-col sm:items-center sm:justify-center">
+          <div className="max-w-6xl mx-auto px-4">
             <h2 className="text-3xl font-bold mb-10 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-center text-transparent">
               My School Projects
             </h2>
