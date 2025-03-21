@@ -79,7 +79,7 @@ const About = () => {
                 <div className="space-y-4 text-gray-300">
                   <div>
                     <h4 className="font-semibold">
-                      Inter at Lyrion Company (2022)
+                      Intern at Lyrion Company (2022)
                     </h4>
                     <p>
                       Assisted in building front-end web design with team
