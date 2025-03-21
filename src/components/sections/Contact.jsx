@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen py-20 px-6 md:px-16 lg:px-24 flex items-center justify-center"
+      className="min-h-screen py-20 px-6 lg:px-24 flex md:flex-row items-center justify-center space-y-10 md:w-full md:space-x-10 sm:flex-row sm:items-center sm:justify-center sm:space-y-10 sm:space-x-10 sm:w-full"
     >
       <RevealOnScroll>
         <div className="bg-white/10 p-8 rounded-lg shadow-lg">
