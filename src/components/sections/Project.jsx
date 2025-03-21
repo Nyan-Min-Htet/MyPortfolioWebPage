@@ -6,7 +6,7 @@ const Project = () => {
     <>
       <section
         id="project"
-        className="py-20 min-h-52 flex leading-6.5 items-center justify-center md:w-full md:space-x-10 sm:space-y-10 sm:space-x-10 sm:w-full"
+        className="py-20 min-h-52 flex leading-6.5 items-center justify-center"
       >
         <RevealOnScroll>
           <div className="max-w-6xl mx-auto px-4 md:w-md md:flex md:flex-col md:items-center md:justify-center sm:w-md sm:flex-col sm:items-center sm:justify-center">
