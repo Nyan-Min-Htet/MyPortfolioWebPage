@@ -66,7 +66,7 @@ const About = () => {
                     College (2024 - 2025)
                   </li>
                   <li>
-                    <strong>Ons Stop Java Course </strong> - Java Developer
+                    <strong>One Stop Java Course </strong> - Java Developer
                     Class (2023)
                   </li>
                   <li>
