@@ -9,7 +9,6 @@ import About from "./components/sections/About";
 import Project from "./components/sections/Project";
 import RevealOnScroll from "./components/RevealOnScroll";
 import Contact from "./components/sections/Contact";
-import { Analytics } from "@vercel/analytics/next";
 
 function App() {
   const [isloaded, setIsLoaded] = useState(false);
@@ -64,7 +63,6 @@ function App() {
           </div>
         </footer>
       </div>
-      <Analytics />
     </>
   );
 }
