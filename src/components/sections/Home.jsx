@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <section
         id="home"
-        className="py-45 min-h-screen space-x-10 flex flex-col md:flex-row items-center justify-center space-y-10 md:w-full md:space-x-10 sm:flex-row sm:items-center sm:justify-center sm:space-y-10 sm:space-x-10 sm:w-full"
+        className="py-45 min-h-screen space-x-10 flex flex-col md:flex-row items-center justify-center space-y-10 md:space-x-10 sm:flex-row sm:items-center sm:justify-center sm:space-y-10 sm:space-x-10"
       >
         <div className="p-2 rounded-full before:absolute before:inset-0 before:-m-1 before:rounded-full before:bg-gradient-to-r before:from-purple-500 before:via-blue-500 before:to-cyan-500 before:blur-lg before:opacity-75 before:animate-pulse">
           <img
@@ -15,7 +15,7 @@ const Home = () => {
             className="relative rounded-full w-65 h-65 shadow-lg"
           />
         </div>
-        <div className="text-center z-10 px-4">
+        <div className="text-center z-10 px-4 md:w-md md:flex md:flex-col md:items-center md:justify-center sm:w-md sm:flex-col sm:items-center sm:justify-center">
           <h2 className="text-5xl bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent leading-right font-bold">
             Hello, I'm Nyan Min Htet
           </h2>
