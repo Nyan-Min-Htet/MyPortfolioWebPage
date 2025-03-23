@@ -44,3 +44,8 @@ const MyComponent = () => {
 export default MyComponent;
 
 In this example, the MyComponent function returns JSX that describes a div containing an h1 and a p element. The {name} expression is used to dynamically insert the value of the name variable into the h1 element.
+
+Tailwind css latest version configuration 
+======================================================
+check node version (node -v)
+npm create vite@latest projectname -- --template react
