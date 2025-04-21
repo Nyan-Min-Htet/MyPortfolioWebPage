@@ -39,7 +39,7 @@ const Contact = () => {
           </h2>
           <form
             onSubmit={handleSubmit}
-            className="space-y-6 w-[100%] max-w-[600px] min-w-[220px] md:w-130 sm:w-130"
+            className="space-y-6 w-[100%] max-w-[700px] min-w-[280px] md:w-130 sm:w-130"
           >
             <div>
               <input

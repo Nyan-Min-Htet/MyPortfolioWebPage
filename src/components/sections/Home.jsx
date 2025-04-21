@@ -6,9 +6,9 @@ const Home = () => {
     <>
       <section
         id="home"
-        className="py-45 mx-auto min-h-screen relative space-x-10 flex flex-col md:flex-row items-center justify-center"
+        className="py-40 mx-auto min-h-screen relative space-x-10 flex flex-col md:flex-row items-center justify-center"
       >
-        <div className="relative flex p-2 rounded-full w-70 sm:ml-20 mb-13 justify-center items-center before:absolute before:inset-0 before:-m-1 before:rounded-full before:bg-gradient-to-r before:from-purple-500 before:via-blue-500 before:to-cyan-500 before:blur-lg before:opacity-75 before:animate-pulse">
+        <div className="relative flex p-2 rounded-full w-70 ml-12 justify-center items-center sm:ml-15 mb-13 before:absolute before:inset-0 before:-m-1 before:rounded-full before:bg-gradient-to-r before:from-purple-500 before:via-blue-500 before:to-cyan-500 before:blur-lg before:opacity-75 before:animate-pulse">
           <img
             src={images}
             alt="Profile Picture"
@@ -16,7 +16,7 @@ const Home = () => {
           />
         </div>
         <div className="text-center z-10 px-4">
-          <h2 className="text-5xl bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent leading-right font-bold">
+          <h2 className="text-5xl bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent leading-right font-bold leading-15">
             Hello, I'm Nyan Min Htet
           </h2>
           <p className="mt-7 text-xl text-gray-300 max-w-lg mx-auto mb-7">
