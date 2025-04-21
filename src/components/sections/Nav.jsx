@@ -8,7 +8,9 @@ const Nav = ({ menuOpen, setMenuOpen }) => {
     <>
       <nav class="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/11 tracking-wide shadow-md p-4">
         <div class="max-w-5xl mx-auto flex justify-between items-center h-13">
-          <h1 class="text-2xl font-bold">Nyan Min Htet</h1>
+          <a href="#home">
+            <h1 class="text-2xl font-bold">Nyan Min Htet</h1>
+          </a>
           <div
             className="w-7 h-5 relative cursor-pointer md:hidden"
             onClick={() => setMenuOpen((prev) => !prev)}
