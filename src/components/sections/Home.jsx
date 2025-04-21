@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <section
         id="home"
-        className="py-45 min-h-screen relative space-x-10 flex flex-col md:flex-row items-center justify-center"
+        className="py-45 mx-auto min-h-screen relative space-x-10 flex flex-col md:flex-row items-center justify-center"
       >
         <div className="relative p-2 rounded-full w-70 sm:ml-11 mb-13 justify-center items-center before:absolute before:inset-0 before:-m-1 before:rounded-full before:bg-gradient-to-r before:from-purple-500 before:via-blue-500 before:to-cyan-500 before:blur-lg before:opacity-75 before:animate-pulse">
           <img
