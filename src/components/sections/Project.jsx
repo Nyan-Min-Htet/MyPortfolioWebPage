@@ -16,6 +16,37 @@ const Project = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="p-6 rounded-xl border-white/20 hover:-translate-y-1 hover:border-blue-500/50 hover:shadow-[0_2px_8px_rgba(50,130,246,0.5)] transition">
                 <h3 className="text-xl font-bold mb-2">
+                  Socket Program Quizz and Guess Application
+                </h3>
+                <p className="text-gray-300 mb-4">
+                  The Quizz and Guess Game is a dual-mode desktop application
+                  developed in Python using socket programming and a Tkinter
+                  GUI. The system features a multi-threaded server capable of
+                  handling multiple clients simultaneously, ensuring a smooth
+                  multiplayer experience. This project highlights core concepts
+                  in network programming, threading, and desktop application
+                  development, making it an ideal showcase of my practical
+                  Python skills.
+                </p>
+                <div>
+                  <span
+                    className="bg-blue-500/40 text-blue-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    hover:shadow-[0_2px_8px_rgba(50,130,246,0.3)] transition-all"
+                  >
+                    Python
+                  </span>
+                  <div className="flex justify-between items-center my-4">
+                    <a
+                      href="#"
+                      className="text-blue-500 hover:text-blue-300 transition-colors"
+                    >
+                      View My Project <span class="text-xl px-2">&#8594;</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="p-6 rounded-xl border-white/20 hover:-translate-y-1 hover:border-blue-500/50 hover:shadow-[0_2px_8px_rgba(50,130,246,0.5)] transition">
+                <h3 className="text-xl font-bold mb-2">
                   Customer Information System
                 </h3>
                 <p className="text-gray-300 mb-4">

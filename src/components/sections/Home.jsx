@@ -20,7 +20,7 @@ const Home = () => {
             Hello, I'm Nyan Min Htet
           </h2>
           <p className="mt-7 text-xl text-gray-300 max-w-lg mx-auto mb-7">
-            Web Developer | Network Engineer
+            Web Developer
           </p>
           <div className="flex justify-center space-x-4">
             <a

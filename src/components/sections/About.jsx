@@ -62,8 +62,8 @@ const About = () => {
                 <h3 className="text-xl font-bold mb-4">Education</h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                   <li>
-                    <strong>Diploma in Computer Science </strong> - Info Myanmar
-                    College (2024 - 2025)
+                    <strong>Higher National Diploma in Computing</strong> - Info
+                    Myanmar College (2023 - 2025)
                   </li>
                   <li>
                     <strong>One Stop Java Course </strong> - Java Developer
