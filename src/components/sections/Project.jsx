@@ -74,7 +74,7 @@ const Project = () => {
               </div>
               <div className="p-6 rounded-xl border-white/20 hover:-translate-y-1 hover:border-blue-500/50 hover:shadow-[0_2px_8px_rgba(50,130,246,0.5)] transition">
                 <h3 className="text-xl font-bold mb-2">
-                  Selling Flower E-Commcerce Website
+                  Selling Flower E-Commerce Website
                 </h3>
                 <p className="text-gray-300 mb-4">
                   This is a full-stack e-commerce website built with HTML, CSS,
